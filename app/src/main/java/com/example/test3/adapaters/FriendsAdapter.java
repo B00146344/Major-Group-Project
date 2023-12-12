@@ -45,10 +45,19 @@ public class FriendsAdapter extends BaseAdapter {
 
         ImageView friendImage = convertView.findViewById(R.id.friendImage);
         TextView friendName = convertView.findViewById(R.id.friendName);
+//        TextView workoutsCompleted = convertView.findViewById(R.id.workoutsCompleted);
 
         Friend friend = friendsList.get(position);
         friendName.setText(friend.getName());
         friendImage.setImageResource(friend.getImageResource());
+
+//        workoutsCompleted.setText(context.getString(R.string.workouts_completed, friend.getWorkoutsCompleted())); // Using a string resource with placeholder
+        TextView friendRank = convertView.findViewById(R.id.friendRank);
+        // Set the rank as "#1", "#2", etc. Add 1 because position is 0-based
+        friendRank.setText(String.format("#%d", position + 1));
+
+        TextView workoutsCompleted = convertView.findViewById(R.id.workoutsCompleted);
+        workoutsCompleted.setText(friendsList.get(position).getWorkoutsCompleted() + " workouts completed");
 
         return convertView;
     }

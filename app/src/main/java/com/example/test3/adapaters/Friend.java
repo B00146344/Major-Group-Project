@@ -1,12 +1,14 @@
 package com.example.test3.adapaters;
 
-public class Friend {
+public class Friend implements Comparable<Friend> {
     private String name;
     private int profileImageResourceId;
+    private int workoutsCompleted;
 
-    public Friend(String name, int profileImageResourceId) {
+    public Friend(String name, int profileImageResourceId, int workoutsCompleted) {
         this.name = name;
         this.profileImageResourceId = profileImageResourceId;
+        this.workoutsCompleted = workoutsCompleted;
     }
 
     // getters & setters
@@ -24,5 +26,18 @@ public class Friend {
 
     public int getImageResource() {
         return profileImageResourceId;
+    }
+
+    public int getWorkoutsCompleted() {
+        return workoutsCompleted;
+    }
+
+    public void setWorkoutsCompleted(int workoutsCompleted) {
+        this.workoutsCompleted = workoutsCompleted;
+    }
+
+    @Override
+    public int compareTo(Friend o) {
+        return Integer.compare(o.workoutsCompleted, this.workoutsCompleted);
     }
 }

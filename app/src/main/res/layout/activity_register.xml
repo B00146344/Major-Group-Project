@@ -29,35 +29,45 @@
         android:id="@+id/editTextName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="NAME"
+        android:hint="USERNAME"
         android:layout_below="@id/textViewLoginLink"
         android:layout_marginTop="32dp"
         android:inputType="textPersonName"/>
+
+    <!-- Email EditText -->
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="EMAIL"
+        android:layout_below="@id/editTextName"
+        android:layout_marginTop="16dp"
+        android:inputType="textEmailAddress"/>
 
     <EditText
         android:id="@+id/editTextPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="PASSWORD"
-        android:layout_below="@id/editTextName"
+        android:layout_below="@id/editTextEmail"
         android:layout_marginTop="16dp"
         android:inputType="textPassword"/>
 
-    <EditText
-        android:id="@+id/editTextDateOfBirth"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="DATE OF BIRTH"
-        android:layout_below="@id/editTextPassword"
-        android:layout_marginTop="16dp"
-        android:inputType="date"/>
+<!--    <EditText-->
+<!--        android:id="@+id/editTextDateOfBirth"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="DATE OF BIRTH"-->
+<!--        android:layout_below="@id/editTextPassword"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:inputType="date"/>-->
 
     <Button
         android:id="@+id/buttonRegister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Register"
-        android:layout_below="@id/editTextDateOfBirth"
+        android:layout_below="@id/editTextPassword"
         android:layout_marginTop="32dp"
         android:background="@color/purple_500"
         android:textColor="@android:color/white" />

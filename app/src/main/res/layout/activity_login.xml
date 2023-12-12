@@ -21,7 +21,8 @@
         android:layout_height="100dp"
         android:layout_marginTop="24dp"
         android:layout_below="@id/loginTitle"
-        android:layout_centerHorizontal="true" />
+        android:src="@drawable/ic_login_top"
+    android:layout_centerHorizontal="true" />
 
     <EditText
         android:id="@+id/username"
@@ -30,7 +31,7 @@
         android:layout_below="@id/userIcon"
         android:layout_marginTop="32dp"
         android:drawablePadding="10dp"
-        android:hint="NAME"
+        android:hint="USERNAME/EMAIL"
         android:inputType="textEmailAddress"
         android:padding="12dp" />
 
@@ -55,5 +56,20 @@
         android:text="Log in"
         android:textColor="#FFFFFF"
         android:padding="12dp" />
+
+    <TextView
+        android:id="@+id/registerOption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Don't have an account? Register here."
+        android:textColor="#6200EE"
+    android:clickable="true"
+    android:focusable="true"
+    android:textSize="16sp" />
+
+
 
 </RelativeLayout>

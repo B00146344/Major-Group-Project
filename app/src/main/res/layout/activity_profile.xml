@@ -17,7 +17,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/profilePicture"
-        android:text="Test Test"
+        android:text="Test"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="8dp"
         android:textSize="18sp"
@@ -54,7 +54,7 @@
                 android:layout_below="@id/workoutsCompletedTitle"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="8dp"
-                android:text="120"
+                android:text="14"
                 android:textSize="16sp"
                 android:textColor="#6200EE" />
         </RelativeLayout>
@@ -81,5 +81,14 @@
         android:horizontalSpacing="10dp"
         android:layout_marginTop="16dp"
         android:stretchMode="columnWidth" />
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp" />
 
 </RelativeLayout>

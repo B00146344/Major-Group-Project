@@ -5,6 +5,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
+import android.widget.Toast;
 
 public class RegisterActivity extends Activity {
 
@@ -20,22 +22,30 @@ public class RegisterActivity extends Activity {
 
         nameEditText = findViewById(R.id.editTextName);
         passwordEditText = findViewById(R.id.editTextPassword);
-        dobEditText = findViewById(R.id.editTextDateOfBirth);
+//        dobEditText = findViewById(R.id.editTextDateOfBirth);
         registerButton = findViewById(R.id.buttonRegister);
 
         registerButton.setOnClickListener(v -> performRegistration());
+
+
+        TextView loginOption = findViewById(R.id.textViewLoginLink);
+        loginOption.setOnClickListener(v -> {
+            Toast.makeText(RegisterActivity.this, "Registration successful!", Toast.LENGTH_SHORT).show();
+
+            Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
+            startActivity(intent);
+        });
     }
 
     private void performRegistration() {
-        String name = nameEditText.getText().toString();
+        String email = nameEditText.getText().toString();
         String password = passwordEditText.getText().toString();
-        String dob = dobEditText.getText().toString();
 
-        System.out.println("Registration Data: " + name + ", " + password + ", " + dob);
+//        System.out.println("Registration Data: " + name + ", " + password + ", " + dob);
 
-         Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
-         startActivity(intent);
+        Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
+        startActivity(intent);
 
-         finish();
+        finish();
     }
 }
