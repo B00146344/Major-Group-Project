@@ -13,22 +13,22 @@
         android:layout_centerHorizontal="true" />
 
     <TextView
-        android:id="@+id/username"
+        android:id="@+id/profileUsername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/profilePicture"
-        android:text="Test"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="8dp"
-        android:textSize="18sp"
-        android:textColor="#000000" />
+        android:layout_marginTop="14dp"
+        android:text="profile_username"
+        android:textColor="#000000"
+        android:textSize="18sp" />
 
     <LinearLayout
         android:id="@+id/workoutStats"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_below="@id/username"
+        android:layout_below="@id/profileUsername"
         android:layout_marginTop="16dp"
         android:weightSum="3">
 
@@ -81,14 +81,15 @@
         android:horizontalSpacing="10dp"
         android:layout_marginTop="16dp"
         android:stretchMode="columnWidth" />
+
+    <!-- Edit Profile Button -->
     <Button
-        android:id="@+id/logoutButton"
+        android:id="@+id/editProfileButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Logout"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="16dp"
-        android:layout_marginBottom="16dp" />
+        android:text="Edit Profile"
+        android:layout_below="@id/friendsGrid"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
 
 </RelativeLayout>
