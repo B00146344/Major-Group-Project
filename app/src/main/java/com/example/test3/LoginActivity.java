@@ -2,7 +2,6 @@ package com.example.test3;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -10,10 +9,14 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.test3.data.User;
+import com.example.test3.database.Database;
+import com.example.test3.managers.SessionManager;
+
 public class LoginActivity extends AppCompatActivity {
-    private EditText usernameEditText;
+    private EditText emailEditText;
     private EditText passwordEditText;
-    private Button loginButton;
+    private Database db;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,28 +24,29 @@ public class LoginActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_login);
 
-        usernameEditText = findViewById(R.id.username);
+        emailEditText = findViewById(R.id.profileUsername);
         passwordEditText = findViewById(R.id.password);
-        loginButton = findViewById(R.id.loginButton);
+        Button loginButton = findViewById(R.id.loginButton);
+        db = new Database(this);
 
         loginButton.setOnClickListener(v -> {
-            String username = usernameEditText.getText().toString();
+            String email = emailEditText.getText().toString();
             String password = passwordEditText.getText().toString();
 
+            User user = db.validateUser(email, password);
 
-            if (password.equals("passs")) {
-                Toast.makeText(LoginActivity.this, "The username/password is incorrect!!", Toast.LENGTH_SHORT).show();
-            }
-            else if (!username.isEmpty() && !password.isEmpty()) {
+            if (user != null) {
                 Toast.makeText(LoginActivity.this, "Login successful!", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                 startActivity(intent);
-
                 finish();
 
+                System.out.println("user user " + user.getUsername());
+                SessionManager session = new SessionManager(getApplicationContext());
+                session.setLogin(true, user.getUsername(), user.getEmail(), user.getId());
             }
             else {
-                Toast.makeText(LoginActivity.this, "Please enter both username and password", Toast.LENGTH_SHORT).show();
+                Toast.makeText(LoginActivity.this, "Incorrect email/password", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -51,6 +55,5 @@ public class LoginActivity extends AppCompatActivity {
             Intent intent = new Intent(LoginActivity.this, RegisterActivity.class);
             startActivity(intent);
         });
-
     }
 }
