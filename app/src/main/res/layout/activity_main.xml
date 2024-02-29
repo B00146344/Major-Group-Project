@@ -1,40 +1,284 @@
-<!-- res/layout/activity_home.xml -->
+<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
 
-    <!-- Top right link to profile page -->
-    <TextView
-        android:id="@+id/profileLink"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
-        android:clickable="true"
-        android:text="Profile"
-        android:textColor="@android:color/holo_blue_dark"
-        android:textStyle="bold" />
+    <View
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ic_bolt"
+        />
 
-    <!-- Buttons for different pages -->
-    <Button
-        android:id="@+id/buttonPage1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Page 1"
-        android:layout_below="@id/profileLink"
-        android:layout_marginTop="16dp"
-        android:layout_marginStart="16dp"/>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginRight="24dp"
+        android:columnCount="2"
+        android:rowCount="3">
 
-    <Button
-        android:id="@+id/buttonPage2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Page 2"
-        android:layout_below="@id/buttonPage1"
-        android:layout_marginTop="16dp"
-        android:layout_marginStart="16dp"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="12dp"
+            android:layout_margin="10dp"
+            >
+
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_settings">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal
+"
+                    android:android_textSize="18sp"
+                    android:text="Sports Workouts"
+                    android:textColor="@color/black"
+                    android:textStyle="bold">
+
+                </TextView>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/profileCardView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="12dp"
+            android:layout_margin="10dp"
+            >
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_profile">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal
+"
+                    android:android_textSize="18sp"
+                    android:text="Profile"
+                    android:textColor="@color/black"
+                    android:textStyle="bold">
+
+                </TextView>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="12dp"
+            android:layout_margin="10dp"
+            >
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_settings">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal
+"
+                    android:android_textSize="18sp"
+                    android:text="Custom workout"
+                    android:textColor="@color/black"
+                    android:textStyle="bold">
+
+                </TextView>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="12dp"
+            android:layout_margin="10dp"
+            >
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_settings">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal
+"
+                    android:android_textSize="18sp"
+                    android:text="Friends"
+                    android:textColor="@color/black"
+                    android:textStyle="bold">
+
+                </TextView>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_row="2"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="12dp"
+            android:layout_margin="10dp"
+            >
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_settings">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal
+"
+                    android:android_textSize="18sp"
+                    android:text="TBD"
+                    android:textColor="@color/black"
+                    android:textStyle="bold">
+
+                </TextView>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/LogoutCardView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_row="2"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="12dp">
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_logout">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal
+"
+                    android:android_textSize="18sp"
+                    android:text="Logout"
+                    android:textColor="@color/black"
+                    android:textStyle="bold">
+
+                </TextView>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </GridLayout>
 
 </RelativeLayout>
