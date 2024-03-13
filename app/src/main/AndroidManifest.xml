@@ -73,6 +73,9 @@
             android:exported="true"
             android:theme="@style/Theme.Test3.NoActionBar">
         </activity>
+
+        <activity android:name=".CustomWorkoutsActivity"/>
+
     </application>
 
 </manifest>

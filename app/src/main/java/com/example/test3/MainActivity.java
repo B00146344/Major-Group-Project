@@ -4,7 +4,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.TextView;
+import android.widget.LinearLayout;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -17,7 +17,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        @SuppressLint({"MissingInflatedId", "LocalSuppress"}) CardView viewProfileCardView = findViewById(R.id.profileCardView);
+        // Profile CardView
+        @SuppressLint("profileCardView")
+        CardView viewProfileCardView = findViewById(R.id.profileCardView);
         viewProfileCardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -26,13 +28,30 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        @SuppressLint({"MissingInflatedId", "LocalSuppress"}) CardView logoutCardView = findViewById(R.id.LogoutCardView);
+        // Custom workout button
+        @SuppressLint({"CustomWorkout", "MissingInflatedId", "LocalSuppress"})
+        CardView customWorkoutButton = findViewById(R.id.CustomWorkout);
+        customWorkoutButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                navigateToCustomWorkouts();
+            }
+        });
+
+        // Logout CardView
+        @SuppressLint("LogoutCardView")
+        CardView logoutCardView = findViewById(R.id.LogoutCardView);
         logoutCardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 showLogoutDialog();
             }
         });
+    }
+
+    private void navigateToCustomWorkouts() {
+        Intent intent = new Intent(MainActivity.this, CustomWorkoutsActivity.class);
+        startActivity(intent);
     }
 
     private void showLogoutDialog() {
