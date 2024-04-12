@@ -8,30 +8,30 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toolbar;
 
-public class WorkoutActivity extends AppCompatActivity {
+public class SecondActivity extends AppCompatActivity {
 
     Button button1,button2,button3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_workout);
+        setContentView(R.layout.activity_second);
 
 
         Toolbar toolbar = findViewById(R.id.toolBar);
         setSupportActionBar(toolbar);
 
 
-        button1 = findViewById(R.id.startfootball);
-        button2 = findViewById(R.id.startbasketball);
-        button3 = findViewById(R.id.startgaelic);
+        button1 = findViewById(R.id.startbeginnerfootball);
+        button2 = findViewById(R.id.startintermediatefootball);
+        button3 = findViewById(R.id.startexpertfootball);
 
 
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(WorkoutActivity.this,SecondActivity.class);
+                Intent intent = new Intent(SecondActivity.this,FootballBeginnerActivity.class);
                 startActivity(intent);
             }
 
@@ -42,7 +42,7 @@ public class WorkoutActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(WorkoutActivity.this,SecondActivity2.class);
+                Intent intent = new Intent(SecondActivity.this,FootballIntermediateActivity.class);
                 startActivity(intent);
             }
 
@@ -53,7 +53,7 @@ public class WorkoutActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(WorkoutActivity.this,SecondActivity3.class);
+                Intent intent = new Intent(SecondActivity.this,FootballExpertActivity.class);
                 startActivity(intent);
             }
 
@@ -68,24 +68,24 @@ public class WorkoutActivity extends AppCompatActivity {
 
 
 
-    public void football(View view) {
+    public void footballbeginner(View view) {
 
-        Intent intent = new Intent(WorkoutActivity.this,SecondActivity.class);
+        Intent intent = new Intent(SecondActivity.this,FootballBeginnerActivity.class);
         startActivity(intent);
 
     }
 
-    public void basketball(View view) {
+    public void footballintermediate(View view) {
 
-        Intent intent = new Intent(WorkoutActivity.this,SecondActivity2.class);
+        Intent intent = new Intent(SecondActivity.this,FootballIntermediateActivity.class);
         startActivity(intent);
 
     }
 
-    public void gaelic(View view) {
+    public void footballexpert(View view) {
 
 
-        Intent intent = new Intent(WorkoutActivity.this,SecondActivity3.class);
+        Intent intent = new Intent(SecondActivity.this,FootballExpertActivity.class);
         startActivity(intent);
 
     }
