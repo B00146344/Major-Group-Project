@@ -10,7 +10,7 @@ import android.widget.Toolbar;
 
 public class WorkoutActivity extends AppCompatActivity {
 
-    Button button1,button2,button3,button4,button5,button6;
+    Button button1,button2,button3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,9 +25,6 @@ public class WorkoutActivity extends AppCompatActivity {
         button1 = findViewById(R.id.startfootball);
         button2 = findViewById(R.id.startbasketball);
         button3 = findViewById(R.id.startgaelic);
-        button4 = findViewById(R.id.startamerfootball);
-        button5 = findViewById(R.id.startrugby);
-        button6 = findViewById(R.id.startvolleyball);
 
 
         button1.setOnClickListener(new View.OnClickListener() {
@@ -57,36 +54,6 @@ public class WorkoutActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 Intent intent = new Intent(WorkoutActivity.this,SecondActivity3.class);
-                startActivity(intent);
-            }
-
-        });
-
-        button4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                Intent intent = new Intent(WorkoutActivity.this,SecondActivity4.class);
-                startActivity(intent);
-            }
-
-        });
-
-        button5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                Intent intent = new Intent(WorkoutActivity.this,SecondActivity5.class);
-                startActivity(intent);
-            }
-
-        });
-
-        button6.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                Intent intent = new Intent(WorkoutActivity.this,SecondActivity6.class);
                 startActivity(intent);
             }
 
@@ -122,28 +89,6 @@ public class WorkoutActivity extends AppCompatActivity {
         startActivity(intent);
 
     }
-
-    public void americanfootball(View view) {
-
-        Intent intent = new Intent(WorkoutActivity.this,SecondActivity4.class);
-        startActivity(intent);
-
-    }
-
-    public void rugby(View view) {
-
-        Intent intent = new Intent(WorkoutActivity.this,SecondActivity5.class);
-        startActivity(intent);
-
-    }
-
-    public void volleyball(View view) {
-
-        Intent intent = new Intent(WorkoutActivity.this,SecondActivity6.class);
-        startActivity(intent);
-
-    }
-
 
 
 }

@@ -6,6 +6,7 @@ android {
     namespace = "com.example.test3"
     compileSdk = 34
 
+
     defaultConfig {
         applicationId = "com.example.test3"
         minSdk = 24
@@ -29,10 +30,6 @@ android {
                 "proguard-rules.pro"
             )
         }
-    }
-    compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
     }
     buildFeatures {
         viewBinding = true

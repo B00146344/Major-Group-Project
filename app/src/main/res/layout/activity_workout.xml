@@ -23,7 +23,6 @@
     <ScrollView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        
         android:scrollbars="none"
 
 
@@ -71,15 +70,6 @@
                             android:textStyle="bold"
                             />
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="serif"
-                            android:padding="5.0dp"
-                            android:text="Days: 45"
-                            android:textSize="20.0dp"
-                            android:textStyle="bold"
-                            />
 
                     </LinearLayout>
 
@@ -165,15 +155,6 @@
                             android:textStyle="bold"
                             />
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="serif"
-                            android:padding="5.0dp"
-                            android:text="Days: 60"
-                            android:textSize="20.0dp"
-                            android:textStyle="bold"
-                            />
 
                     </LinearLayout>
 
@@ -259,15 +240,6 @@
                             android:textStyle="bold"
                             />
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="serif"
-                            android:padding="5.0dp"
-                            android:text="Days: 30"
-                            android:textSize="20.0dp"
-                            android:textStyle="bold"
-                            />
 
                     </LinearLayout>
 
@@ -318,288 +290,7 @@
 
 
             </LinearLayout>
-            <LinearLayout
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10.0dp"
-                android:layout_marginTop="15.0dp"
-                android:background="@color/cardview_light_background"
-                android:orientation="vertical">
 
-                <LinearLayout
-                    android:onClick="americanfootball"
-                    android:layout_width="fill_parent"
-                    android:layout_height="150.0dp"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:orientation="horizontal"
-                    >
-
-
-                    <LinearLayout
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1.0"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="monospace"
-                            android:padding="5.0dp"
-                            android:text="American Football"
-                            android:textColor="#ff000000"
-                            android:textSize="20.0dp"
-                            android:textStyle="bold"
-                            />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="serif"
-                            android:padding="5.0dp"
-                            android:text="Days: 56"
-                            android:textSize="20.0dp"
-                            android:textStyle="bold"
-                            />
-
-                    </LinearLayout>
-
-
-                    <LinearLayout
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="2.0">
-
-
-                        <pl.droidsonroids.gif.GifImageView
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:src="@drawable/amerfootball"/>
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="0.0"
-                        >
-
-                        <ImageView
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:padding="10.0dp"
-                            android:src="@drawable/baseline_keyboard_arrow_right_24"
-
-                            />
-
-
-                    </LinearLayout>
-
-
-                </LinearLayout>
-
-
-                <Button
-                    android:id="@+id/startamerfootball"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10.dp"
-                    android:background="@drawable/button"
-                    android:text="Get Started"
-                    android:textAllCaps="true"
-                    android:textColor="#FFF"/>
-
-
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10.0dp"
-                android:layout_marginTop="15.0dp"
-                android:background="@color/cardview_light_background"
-                android:orientation="vertical">
-
-                <LinearLayout
-                    android:onClick="rugby"
-                    android:layout_width="fill_parent"
-                    android:layout_height="150.0dp"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:orientation="horizontal"
-                    >
-
-
-                    <LinearLayout
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1.0"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="monospace"
-                            android:padding="5.0dp"
-                            android:text="Rugby"
-                            android:textColor="#ff000000"
-                            android:textSize="20.0dp"
-                            android:textStyle="bold"
-                            />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="serif"
-                            android:padding="5.0dp"
-                            android:text="Days: 45"
-                            android:textSize="20.0dp"
-                            android:textStyle="bold"
-                            />
-
-                    </LinearLayout>
-
-
-                    <LinearLayout
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="2.0">
-
-
-                        <pl.droidsonroids.gif.GifImageView
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:src="@drawable/rugby"/>
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="0.0"
-                        >
-
-                        <ImageView
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:padding="10.0dp"
-                            android:src="@drawable/baseline_keyboard_arrow_right_24"
-
-                            />
-
-
-                    </LinearLayout>
-
-
-                </LinearLayout>
-
-
-                <Button
-                    android:id="@+id/startrugby"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10.dp"
-                    android:background="@drawable/button"
-                    android:text="Get Started"
-                    android:textAllCaps="true"
-                    android:textColor="#FFF"/>
-
-
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10.0dp"
-                android:layout_marginTop="15.0dp"
-                android:background="@color/cardview_light_background"
-                android:orientation="vertical">
-
-                <LinearLayout
-                    android:onClick="volleyball"
-                    android:layout_width="fill_parent"
-                    android:layout_height="150.0dp"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:orientation="horizontal"
-                    >
-
-
-                    <LinearLayout
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1.0"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="monospace"
-                            android:padding="5.0dp"
-                            android:text="Volleyball"
-                            android:textColor="#ff000000"
-                            android:textSize="20.0dp"
-                            android:textStyle="bold"
-                            />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="serif"
-                            android:padding="5.0dp"
-                            android:text="Days: 50"
-                            android:textSize="20.0dp"
-                            android:textStyle="bold"
-                            />
-
-                    </LinearLayout>
-
-
-                    <LinearLayout
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="2.0">
-
-
-                        <pl.droidsonroids.gif.GifImageView
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:src="@drawable/volleyball"/>
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="0.0"
-                        >
-
-                        <ImageView
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:padding="10.0dp"
-                            android:src="@drawable/baseline_keyboard_arrow_right_24"
-
-                            />
-
-
-                    </LinearLayout>
-
-
-                </LinearLayout>
-
-
-                <Button
-                    android:id="@+id/startvolleyball"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10.dp"
-                    android:background="@drawable/button"
-                    android:text="Get Started"
-                    android:textAllCaps="true"
-                    android:textColor="#FFF"/>
-
-
-            </LinearLayout>
 
 
 
