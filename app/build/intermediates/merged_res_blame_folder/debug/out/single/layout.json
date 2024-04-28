@@ -1,0 +1,266 @@
+[
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_start_football_expert.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_start_football_expert.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_highknee.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_highknee.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_friends.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_friends.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_start_basketball_intermediate.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_start_basketball_intermediate.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_second2.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_second2.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_friend_profile.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_friend_profile.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/content_main.xml",
+        "source": "com.example.test3.app-main-47:/layout/content_main.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/singledata.xml",
+        "source": "com.example.test3.app-main-47:/layout/singledata.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_start_football_intermediate.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_start_football_intermediate.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_gaelic_beginner.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_gaelic_beginner.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_squats.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_squats.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_home.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_sidetoside.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_sidetoside.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/nav_header_main.xml",
+        "source": "com.example.test3.app-main-47:/layout/nav_header_main.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_main.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_profile.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_burpees.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_burpees.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_gaelic_expert.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_gaelic_expert.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_second3.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_second3.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_hollowbodyholds.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_hollowbodyholds.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/fragment_home.xml",
+        "source": "com.example.test3.app-main-47:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_plankwshouldertaps.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_plankwshouldertaps.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/list_item_friend_request.xml",
+        "source": "com.example.test3.app-main-47:/layout/list_item_friend_request.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_start_basketball_expert.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_start_basketball_expert.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_singlelegsquat.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_singlelegsquat.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_basketball_expert.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_basketball_expert.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/fragment_gallery.xml",
+        "source": "com.example.test3.app-main-47:/layout/fragment_gallery.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_start_basketball_beginner.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_start_basketball_beginner.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_singlearmpushup.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_singlearmpushup.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/fragment_slideshow.xml",
+        "source": "com.example.test3.app-main-47:/layout/fragment_slideshow.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/friend_item.xml",
+        "source": "com.example.test3.app-main-47:/layout/friend_item.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_custom_workouts.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_custom_workouts.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_lunges.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_lunges.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_football_intermediate.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_football_intermediate.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_basketball_beginner.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_basketball_beginner.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_register.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_second.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_second.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_display_data.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_display_data.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_tricepdips.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_tricepdips.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_basketball_intermediate.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_basketball_intermediate.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_plankjacks.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_plankjacks.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_gaelic_intermediate.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_gaelic_intermediate.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_start_gaelic_beginner.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_start_gaelic_beginner.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_start_gaelic_expert.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_start_gaelic_expert.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_quiz.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_quiz.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_lsithold.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_lsithold.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_chat.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_chat.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_laterallunges.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_laterallunges.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_squatjump.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_squatjump.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_pushups.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_pushups.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_jumpinglunge.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_jumpinglunge.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_start_gaelic_intermediate.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_start_gaelic_intermediate.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/dialog_friend_requests.xml",
+        "source": "com.example.test3.app-main-47:/layout/dialog_friend_requests.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_start_football_beginner.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_start_football_beginner.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_starjumps.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_starjumps.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/app_bar_main.xml",
+        "source": "com.example.test3.app-main-47:/layout/app_bar_main.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_bicyclecrunches.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_bicyclecrunches.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_wallsit.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_wallsit.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_login.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_workout.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_workout.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_russiantwist.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_russiantwist.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_glutebridge.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_glutebridge.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_football_expert.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_football_expert.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_football_beginner.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_football_beginner.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_mountainclimbers.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_mountainclimbers.xml"
+    },
+    {
+        "merged": "com.example.test3.app-mergeDebugResources-44:/layout/activity_edit_profile.xml",
+        "source": "com.example.test3.app-main-47:/layout/activity_edit_profile.xml"
+    }
+]

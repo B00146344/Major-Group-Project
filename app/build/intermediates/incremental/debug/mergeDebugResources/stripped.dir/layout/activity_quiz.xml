@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <RadioGroup
+        android:id="@+id/radio_group_sport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radio_button_football"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Football" />
+
+        <RadioButton
+            android:id="@+id/radio_button_basketball"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Basketball" />
+
+        <RadioButton
+            android:id="@+id/radio_button_gaelic_football"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gaelic Football" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radio_group_sport"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:text="Submit" />
+
+</RelativeLayout>

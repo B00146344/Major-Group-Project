@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/textViewCreateAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create New Account"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textViewLoginLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already Registered? Log in here."
+        android:layout_below="@id/textViewCreateAccount"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/purple_500"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="USERNAME"
+        android:layout_below="@id/textViewLoginLink"
+        android:layout_marginTop="32dp"
+        android:inputType="textPersonName"/>
+
+    <!-- Email EditText -->
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="EMAIL"
+        android:layout_below="@id/editTextName"
+        android:layout_marginTop="16dp"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PASSWORD"
+        android:layout_below="@id/editTextEmail"
+        android:layout_marginTop="16dp"
+        android:inputType="textPassword"/>
+
+<!--    <EditText-->
+<!--        android:id="@+id/editTextDateOfBirth"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="DATE OF BIRTH"-->
+<!--        android:layout_below="@id/editTextPassword"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:inputType="date"/>-->
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_below="@id/editTextPassword"
+        android:layout_marginTop="32dp"
+        android:background="@color/purple_500"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

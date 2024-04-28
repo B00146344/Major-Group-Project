@@ -1,0 +1,534 @@
+[
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_fragment_home.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/menu_activity_main_drawer.xml.flat",
+        "source": "com.example.test3.app-main-47:/menu/activity_main_drawer.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_friend_item.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/friend_item.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.test3.app-main-47:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.test3.app-main-47:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_edit_profile.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_edit_profile.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.test3.app-main-47:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_gaelic_intermediate.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_gaelic_intermediate.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.test3.app-main-47:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.test3.app-main-47:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/drawable_ic_menu_gallery.xml.flat",
+        "source": "com.example.test3.app-main-47:/drawable/ic_menu_gallery.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.test3.app-main-47:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_register.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_start_gaelic_expert.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_start_gaelic_expert.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_dialog_friend_requests.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/dialog_friend_requests.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_basketball_expert.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_basketball_expert.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_display_data.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_display_data.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/drawable_tricepdips.gif.flat",
+        "source": "com.example.test3.app-main-47:/drawable/tricepdips.gif"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.test3.app-main-47:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/drawable_ic_no_picture.jpg.flat",
+        "source": "com.example.test3.app-main-47:/drawable/ic_no_picture.jpg"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/drawable_gree.png.flat",
+        "source": "com.example.test3.app-main-47:/drawable/gree.png"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/drawable_ic_logout.xml.flat",
+        "source": "com.example.test3.app-main-47:/drawable/ic_logout.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_app_bar_main.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/app_bar_main.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_start_football_intermediate.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_start_football_intermediate.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_workout.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_workout.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_laterallunges.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_laterallunges.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/drawable_ic_plan.xml.flat",
+        "source": "com.example.test3.app-main-47:/drawable/ic_plan.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/drawable_jumpinglunges.gif.flat",
+        "source": "com.example.test3.app-main-47:/drawable/jumpinglunges.gif"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_wallsit.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_wallsit.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.test3.app-main-47:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/drawable_baseline_keyboard_arrow_right_24.xml.flat",
+        "source": "com.example.test3.app-main-47:/drawable/baseline_keyboard_arrow_right_24.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_profile.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/drawable_amber.png.flat",
+        "source": "com.example.test3.app-main-47:/drawable/amber.png"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/menu_main.xml.flat",
+        "source": "com.example.test3.app-main-47:/menu/main.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_glutebridge.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_glutebridge.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/drawable_ic_bolt.xml.flat",
+        "source": "com.example.test3.app-main-47:/drawable/ic_bolt.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_football_intermediate.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_football_intermediate.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_jumpinglunge.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_jumpinglunge.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_second.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_second.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_start_football_beginner.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_start_football_beginner.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_squats.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_squats.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.test3.app-main-47:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_lsithold.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_lsithold.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/navigation_mobile_navigation.xml.flat",
+        "source": "com.example.test3.app-main-47:/navigation/mobile_navigation.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_gaelic_expert.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_gaelic_expert.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_friend_profile.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_friend_profile.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_singledata.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/singledata.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_highknee.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_highknee.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/drawable_basketball.gif.flat",
+        "source": "com.example.test3.app-main-47:/drawable/basketball.gif"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_list_item_friend_request.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/list_item_friend_request.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/drawable_ic_workout.xml.flat",
+        "source": "com.example.test3.app-main-47:/drawable/ic_workout.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.test3.app-main-47:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/drawable_lsithold.gif.flat",
+        "source": "com.example.test3.app-main-47:/drawable/lsithold.gif"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_football_expert.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_football_expert.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_content_main.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/content_main.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/drawable_bikecrunches.gif.flat",
+        "source": "com.example.test3.app-main-47:/drawable/bikecrunches.gif"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/drawable_red.png.flat",
+        "source": "com.example.test3.app-main-47:/drawable/red.png"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/drawable_squats.gif.flat",
+        "source": "com.example.test3.app-main-47:/drawable/squats.gif"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/drawable_highknee.gif.flat",
+        "source": "com.example.test3.app-main-47:/drawable/highknee.gif"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_pushups.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_pushups.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/drawable_pushups.gif.flat",
+        "source": "com.example.test3.app-main-47:/drawable/pushups.gif"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_football_beginner.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_football_beginner.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/drawable_russiantwist.gif.flat",
+        "source": "com.example.test3.app-main-47:/drawable/russiantwist.gif"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/drawable_singlearmpushup.gif.flat",
+        "source": "com.example.test3.app-main-47:/drawable/singlearmpushup.gif"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_gaelic_beginner.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_gaelic_beginner.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/drawable_lunges.gif.flat",
+        "source": "com.example.test3.app-main-47:/drawable/lunges.gif"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/drawable_squatjump.gif.flat",
+        "source": "com.example.test3.app-main-47:/drawable/squatjump.gif"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/drawable_football.gif.flat",
+        "source": "com.example.test3.app-main-47:/drawable/football.gif"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/drawable_sidetoside.gif.flat",
+        "source": "com.example.test3.app-main-47:/drawable/sidetoside.gif"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_starjumps.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_starjumps.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/drawable_plankjacks.gif.flat",
+        "source": "com.example.test3.app-main-47:/drawable/plankjacks.gif"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_custom_workouts.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_custom_workouts.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_basketball_intermediate.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_basketball_intermediate.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_second2.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_second2.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_quiz.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_quiz.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/drawable_hollowbodyholds.gif.flat",
+        "source": "com.example.test3.app-main-47:/drawable/hollowbodyholds.gif"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.test3.app-main-47:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.test3.app-main-47:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_home.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/drawable_ic_menu_slideshow.xml.flat",
+        "source": "com.example.test3.app-main-47:/drawable/ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_login.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_squatjump.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_squatjump.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/drawable_ic_login_top.png.flat",
+        "source": "com.example.test3.app-main-47:/drawable/ic_login_top.png"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_nav_header_main.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/nav_header_main.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_main.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_plankjacks.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_plankjacks.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.test3.app-main-47:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/xml_backup_rules.xml.flat",
+        "source": "com.example.test3.app-main-47:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/drawable_wallsit.gif.flat",
+        "source": "com.example.test3.app-main-47:/drawable/wallsit.gif"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/drawable_button.xml.flat",
+        "source": "com.example.test3.app-main-47:/drawable/button.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/drawable_gaelic.gif.flat",
+        "source": "com.example.test3.app-main-47:/drawable/gaelic.gif"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/drawable_ic_profile_picture.webp.flat",
+        "source": "com.example.test3.app-main-47:/drawable/ic_profile_picture.webp"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_start_football_expert.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_start_football_expert.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_start_basketball_expert.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_start_basketball_expert.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_lunges.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_lunges.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_bicyclecrunches.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_bicyclecrunches.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_second3.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_second3.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.test3.app-main-47:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_start_gaelic_intermediate.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_start_gaelic_intermediate.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_start_gaelic_beginner.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_start_gaelic_beginner.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_russiantwist.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_russiantwist.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_fragment_slideshow.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/fragment_slideshow.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_chat.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_chat.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/drawable_ic_menu_camera.xml.flat",
+        "source": "com.example.test3.app-main-47:/drawable/ic_menu_camera.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/drawable_side_nav_bar.xml.flat",
+        "source": "com.example.test3.app-main-47:/drawable/side_nav_bar.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.test3.app-main-47:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_singlelegsquat.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_singlelegsquat.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_hollowbodyholds.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_hollowbodyholds.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_singlearmpushup.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_singlearmpushup.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_basketball_beginner.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_basketball_beginner.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_mountainclimbers.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_mountainclimbers.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/drawable_jumpingjack.gif.flat",
+        "source": "com.example.test3.app-main-47:/drawable/jumpingjack.gif"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/drawable_singlelegsquat.gif.flat",
+        "source": "com.example.test3.app-main-47:/drawable/singlelegsquat.gif"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_plankwshouldertaps.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_plankwshouldertaps.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.test3.app-main-47:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/drawable_lateral.gif.flat",
+        "source": "com.example.test3.app-main-47:/drawable/lateral.gif"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_fragment_gallery.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/fragment_gallery.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/drawable_ic_friend.xml.flat",
+        "source": "com.example.test3.app-main-47:/drawable/ic_friend.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/drawable_glutebridge.gif.flat",
+        "source": "com.example.test3.app-main-47:/drawable/glutebridge.gif"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_sidetoside.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_sidetoside.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_start_basketball_beginner.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_start_basketball_beginner.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/drawable_ic_settings.xml.flat",
+        "source": "com.example.test3.app-main-47:/drawable/ic_settings.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/drawable_plankwshouldertap.gif.flat",
+        "source": "com.example.test3.app-main-47:/drawable/plankwshouldertap.gif"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_friends.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_friends.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_tricepdips.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_tricepdips.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/drawable_ic_profile.xml.flat",
+        "source": "com.example.test3.app-main-47:/drawable/ic_profile.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.test3.app-main-47:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.test3.app-main-47:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.test3.app-main-47:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_start_basketball_intermediate.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_start_basketball_intermediate.xml"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/drawable_mountainclimbers.gif.flat",
+        "source": "com.example.test3.app-main-47:/drawable/mountainclimbers.gif"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/drawable_burpees.gif.flat",
+        "source": "com.example.test3.app-main-47:/drawable/burpees.gif"
+    },
+    {
+        "merged": "com.example.test3.app-merged_res-45:/layout_activity_burpees.xml.flat",
+        "source": "com.example.test3.app-main-47:/layout/activity_burpees.xml"
+    }
+]
