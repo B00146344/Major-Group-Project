@@ -1,45 +1,39 @@
-<!-- friend_item.xml -->
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content">
-
-    <TextView
-        android:id="@+id/friendRank"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_margin="4dp"
-        android:padding="4dp"
-        android:text="#1"
-        android:textColor="#FFD700"
-        android:textSize="24sp"
-        android:textStyle="bold" />
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
 
     <ImageView
-        android:id="@+id/friendImage"
+        android:id="@+id/friend_image"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_centerHorizontal="true" />
-    <!--        android:src="@drawable/ic_friend"-->
+        android:src="@drawable/ic_friend"
+        android:scaleType="centerCrop"/>
 
-    <TextView
-        android:id="@+id/friendName"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_below="@id/friendImage"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="4dp"
-        android:text="Friend Name"
-        android:textSize="15sp" />
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginStart="16dp">
 
-    <TextView
-        android:id="@+id/workoutsCompleted"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/friendName"
-        android:layout_marginTop="4dp"
-        android:text="0 workouts completed"
-        android:textColor="@android:color/black"
-        android:textSize="14sp" />
-</RelativeLayout>
+        <TextView
+            android:id="@+id/friend_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Friend Name"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/friend_workouts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Workouts Completed: 10"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

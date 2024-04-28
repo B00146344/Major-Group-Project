@@ -1,41 +1,7 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
 plugins {
-    id("com.example.test3")
-}
+    id("com.android.application") version "8.1.3" apply false
+    id("org.jetbrains.kotlin.android") version "1.9.0" apply false
 
-android {
-    compileSdkVersion(34)
-
-    defaultConfig {
-        applicationId = "com.example.test3"
-        minSdkVersion(24)
-        targetSdkVersion(34)
-        versionCode = 1
-        versionName = "1.0"
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-    }
-
-    buildTypes {
-        getByName("release") {
-            isMinifyEnabled = false
-            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
-        }
-    }
-
-    buildFeatures {
-        viewBinding = true
-    }
-}
-
-dependencies {
-    implementation("androidx.appcompat:appcompat:1.6.1")
-    implementation("com.google.android.material:material:1.4.0")
-    implementation("androidx.constraintlayout:constraintlayout:2.1.3")
-    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.4.0")
-    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0")
-    implementation("androidx.navigation:navigation-fragment:2.4.0")
-    implementation("androidx.navigation:navigation-ui:2.4.0")
-    testImplementation("junit:junit:4.13.2")
-    androidTestImplementation("androidx.test.ext:junit:1.1.5")
-    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.0")
-    implementation("pl.droidsonroids.gif:android-gif-drawable:1.2.19")
+    // 2nd one^
 }

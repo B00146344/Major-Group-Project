@@ -69,13 +69,26 @@
         </activity>
 
         <activity
+            android:name=".Main"
+            android:exported="true"
+            android:theme="@style/Theme.Test3.NoActionBar">
+            <!--            <intent-filter>-->
+            <!--                <action android:name="android.intent.action.MAIN" />-->
+            <!--                <category android:name="android.intent.category.LAUNCHER" />-->
+            <!--            </intent-filter>-->
+        </activity>
+
+        <activity
             android:name=".EditProfileActivity"
             android:exported="true"
             android:theme="@style/Theme.Test3.NoActionBar">
         </activity>
 
-        <activity android:name=".CustomWorkoutsActivity"/>
-
+        <activity
+            android:name=".FriendsActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Test3.NoActionBar">
+        </activity>
     </application>
 
 </manifest>

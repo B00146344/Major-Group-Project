@@ -1,24 +1,16 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#434040"
-    android:padding="16dp"
-    >
-
-    <View
-        android:id="@+id/background"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/ic_bolt"
-        />
+    android:background="#FFFFFF"
+    android:padding="16dp">
 
     <ImageView
         android:id="@+id/profilePicture"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:src="@drawable/ic_profile_picture"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_profile_picture" />
 
     <TextView
         android:id="@+id/profileUsername"
@@ -28,31 +20,31 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="14dp"
         android:text="profile_username"
-        android:textColor="@color/white"
+        android:textColor="#000000"
         android:textSize="18sp" />
 
     <LinearLayout
         android:id="@+id/workoutStats"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:layout_below="@id/profileUsername"
         android:layout_marginTop="16dp"
+        android:orientation="horizontal"
         android:weightSum="3">
 
         <RelativeLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_margin="4dp">
+            android:layout_margin="4dp"
+            android:layout_weight="1">
 
             <TextView
                 android:id="@+id/workoutsCompletedTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
-                android:text="Workouts\nCompleted"
                 android:gravity="center"
+                android:text="Workouts\nCompleted"
                 android:textSize="14sp" />
 
             <TextView
@@ -63,8 +55,8 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="8dp"
                 android:text="14"
-                android:textSize="16sp"
-                android:textColor="#6200EE" />
+                android:textColor="#6200EE"
+                android:textSize="16sp" />
         </RelativeLayout>
 
     </LinearLayout>
@@ -76,28 +68,28 @@
         android:layout_below="@id/workoutStats"
         android:layout_marginTop="24dp"
         android:text="Friends"
-        android:textSize="20sp"
-        android:textColor="#000000" />
-
-    <GridView
-        android:id="@+id/friendsGrid"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/friendsSectionTitle"
-        android:numColumns="2"
-        android:verticalSpacing="10dp"
-        android:horizontalSpacing="10dp"
-        android:layout_marginTop="16dp"
-        android:stretchMode="columnWidth" />
+        android:textColor="#000000"
+        android:textSize="20sp" />
 
     <!-- Edit Profile Button -->
+    <GridView
+        android:id="@+id/friendsGrid"
+        android:layout_width="361dp"
+        android:layout_height="283dp"
+        android:layout_below="@id/friendsSectionTitle"
+        android:layout_marginTop="16dp"
+        android:horizontalSpacing="10dp"
+        android:numColumns="2"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp" />
+
     <Button
         android:id="@+id/editProfileButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Edit Profile"
         android:layout_below="@id/friendsGrid"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="16dp" />
+        android:layout_marginTop="16dp"
+        android:text="Edit Profile" />
 
 </RelativeLayout>

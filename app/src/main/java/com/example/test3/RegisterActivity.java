@@ -56,12 +56,12 @@ public class RegisterActivity extends Activity {
             return false;
         }
 
-        if (password.length() < 6) {
+        if (password.length() < 6) { // Example: Minimum 6 characters
             Toast.makeText(this, "Password too short", Toast.LENGTH_SHORT).show();
             return false;
         }
 
-        if (db.isUserExists(email)) {
+        if (db.isValidEmail(email)) {
             Toast.makeText(this, "User already exists", Toast.LENGTH_SHORT).show();
             return false;
         }

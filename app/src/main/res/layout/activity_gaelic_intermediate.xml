@@ -62,7 +62,7 @@
 
                     <LinearLayout
                         android:onClick="Imagebuttonclicked"
-                        android:id="@+id/burpees"
+                        android:id="@+id/jumpinglunge"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
@@ -84,7 +84,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="monospace"
-                                android:text="Burpees"
+                                android:text="Jumping Lunges"
                                 android:textAllCaps="true"
                                 android:textColor="#ff000000"
                                 android:textSize="20.0dp"
@@ -95,7 +95,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Repeat Three Times"
+                                android:text="Repeat Twice"
                                 android:textStyle="bold"
 
                                 />
@@ -104,7 +104,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="01:00 MIN"
+                                android:text="00:45 SEC"
                                 android:textColor="#ffff5722"
                                 android:textStyle="bold"
                                 android:textSize="13sp"
@@ -125,7 +125,7 @@
                             <pl.droidsonroids.gif.GifImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/burpees"
+                                android:src="@drawable/jumpinglunges"
                                 />
 
                         </LinearLayout>
@@ -178,7 +178,7 @@
 
                     <LinearLayout
                         android:onClick="Imagebuttonclicked"
-                        android:id="@+id/squats"
+                        android:id="@+id/plankwshouldertaps"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
@@ -200,10 +200,10 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="monospace"
-                                android:text="Squats"
+                                android:text="Plank With Shoulder Taps"
                                 android:textAllCaps="true"
                                 android:textColor="#ff000000"
-                                android:textSize="20.0dp"
+                                android:textSize="16.0dp"
                                 android:textStyle="bold"
 
                                 />
@@ -211,7 +211,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Repeat Three Times"
+                                android:text="Repeat Twice"
                                 android:textStyle="bold"
 
                                 />
@@ -220,10 +220,9 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="01:00 MIN"
+                                android:text="00:45 SEC"
                                 android:textColor="#ffff5722"
                                 android:textStyle="bold"
-                                android:textSize="13sp"
                                 />
 
 
@@ -241,7 +240,7 @@
                             <pl.droidsonroids.gif.GifImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/squats"
+                                android:src="@drawable/plankwshouldertap"
                                 />
 
                         </LinearLayout>
@@ -293,7 +292,7 @@
 
                     <LinearLayout
                         android:onClick="Imagebuttonclicked"
-                        android:id="@+id/mountainclimbers"
+                        android:id="@+id/bicyclecrunches"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
@@ -315,7 +314,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="monospace"
-                                android:text="Mountain Climbers"
+                                android:text="Bicycle Crunches"
                                 android:textAllCaps="true"
                                 android:textColor="#ff000000"
                                 android:textSize="20.0dp"
@@ -326,7 +325,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Repeat Three Times"
+                                android:text="Repeat Twice"
                                 android:textStyle="bold"
 
                                 />
@@ -335,7 +334,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="01:00 MIN"
+                                android:text="00:45 SEC"
                                 android:textColor="#ffff5722"
                                 android:textStyle="bold"
                                 android:textSize="13sp"
@@ -356,7 +355,7 @@
                             <pl.droidsonroids.gif.GifImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/mountainclimbers"
+                                android:src="@drawable/bikecrunches"
                                 />
 
                         </LinearLayout>
@@ -408,7 +407,7 @@
 
                     <LinearLayout
                         android:onClick="Imagebuttonclicked"
-                        android:id="@+id/tricepdips"
+                        android:id="@+id/russiantwist"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
@@ -430,7 +429,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="monospace"
-                                android:text="Tricep Dips"
+                                android:text="Russian Twists"
                                 android:textAllCaps="true"
                                 android:textColor="#ff000000"
                                 android:textSize="20.0dp"
@@ -441,7 +440,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Repeat Three Times"
+                                android:text="Repeat Twice"
                                 android:textStyle="bold"
 
                                 />
@@ -450,7 +449,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="01:00 MIN"
+                                android:text="00:45 SEC"
                                 android:textColor="#ffff5722"
                                 android:textStyle="bold"
                                 android:textSize="13sp"
@@ -471,7 +470,7 @@
                             <pl.droidsonroids.gif.GifImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/tricepdips"
+                                android:src="@drawable/russiantwist"
                                 />
 
                         </LinearLayout>
@@ -515,7 +514,67 @@
 
         </ScrollView>
 
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="124dp"
+            android:text="Jumping Lunges"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
     </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="124dp"
+        android:text="Planks With Shoulder Taps"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkbox" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="124dp"
+        android:text="Bicycle Crunches"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkbox2" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="124dp"
+        android:text="Russian Twists"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkbox3" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="124dp"
+        android:text="Confirm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.447"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox4" />
+
+
+    <Button
+        android:id="@+id/buttonTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="124dp"
+        android:text="Display"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.447"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox4" />
 
 
 

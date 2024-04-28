@@ -8,7 +8,6 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.test3.ProfileActivity;
 import com.example.test3.R;
 
 import java.util.List;
@@ -17,9 +16,9 @@ public class FriendsAdapter extends BaseAdapter {
     private Context context;
     private List<Friend> friendsList;
 
-    public FriendsAdapter(ProfileActivity profileActivity, List<Friend> friendList) {
-        this.context = profileActivity;
-        this.friendsList = friendList;
+    public FriendsAdapter(Context context, List<Friend> friendsList) {
+        this.context = context;
+        this.friendsList = friendsList;
     }
 
     @Override
@@ -39,26 +38,37 @@ public class FriendsAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
+        ViewHolder holder;
+
         if (convertView == null) {
             convertView = LayoutInflater.from(context).inflate(R.layout.friend_item, parent, false);
+            holder = new ViewHolder();
+            holder.friendImage = convertView.findViewById(R.id.friend_image);
+            holder.friendName = convertView.findViewById(R.id.friend_name);
+            holder.workoutsCompleted = convertView.findViewById(R.id.friend_workouts);
+            convertView.setTag(holder);
+        }
+        else {
+            holder = (ViewHolder) convertView.getTag();
         }
 
-        ImageView friendImage = convertView.findViewById(R.id.friendImage);
-        TextView friendName = convertView.findViewById(R.id.friendName);
-//        TextView workoutsCompleted = convertView.findViewById(R.id.workoutsCompleted);
-
+        System.out.println(friendsList.size() + " - " + position);
         Friend friend = friendsList.get(position);
-        friendName.setText(friend.getName());
-        friendImage.setImageResource(friend.getImageResource());
 
-//        workoutsCompleted.setText(context.getString(R.string.workouts_completed, friend.getWorkoutsCompleted())); // Using a string resource with placeholder
-        TextView friendRank = convertView.findViewById(R.id.friendRank);
-        // Set the rank as "#1", "#2", etc. Add 1 because position is 0-based
-        friendRank.setText(String.format("#%d", position + 1));
+        holder.friendName.setText(friend.getName());
+        holder.workoutsCompleted.setText(friend.getWorkoutsCompleted() + " workouts completed");
 
-        TextView workoutsCompleted = convertView.findViewById(R.id.workoutsCompleted);
-        workoutsCompleted.setText(friendsList.get(position).getWorkoutsCompleted() + " workouts completed");
+        if (holder.friendImage != null) {
+            holder.friendImage.setImageResource(friend.getImageResource());
+        }
 
         return convertView;
+    }
+
+
+    static class ViewHolder {
+        ImageView friendImage;
+        TextView friendName;
+        TextView workoutsCompleted;
     }
 }

@@ -2,16 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#434040"
     android:padding="16dp">
-
-    <View
-        android:id="@+id/background"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/ic_bolt"
-        />
-
 
     <ImageView
         android:id="@+id/profilePicture"
@@ -27,8 +18,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/profilePicture"
         android:layout_marginTop="16dp"
-        android:hint="Username"
-        android:textColorHint="@color/white" />
+        android:hint="Username" />
 
     <EditText
         android:id="@+id/editTextEmail"
@@ -37,8 +27,7 @@
         android:layout_below="@id/editTextUsername"
         android:layout_marginTop="8dp"
         android:hint="Email"
-        android:inputType="textEmailAddress"
-        android:textColorHint="@color/white" />
+        android:inputType="textEmailAddress" />
 
     <EditText
         android:id="@+id/editTextPassword"
@@ -47,8 +36,7 @@
         android:layout_below="@id/editTextEmail"
         android:layout_marginTop="8dp"
         android:hint="New Password"
-        android:inputType="textPassword"
-        android:textColorHint="@color/white" />
+        android:inputType="textPassword" />
 
     <EditText
         android:id="@+id/editTextConfirmPassword"
@@ -57,8 +45,7 @@
         android:layout_below="@id/editTextPassword"
         android:layout_marginTop="8dp"
         android:hint="Confirm Password"
-        android:inputType="textPassword"
-        android:textColorHint="@color/white" />
+        android:inputType="textPassword" />
 
     <Button
         android:id="@+id/buttonSave"
@@ -77,4 +64,5 @@
         android:layout_marginTop="16dp"
         android:text="Back to Home"
         android:layout_centerHorizontal="true" />
+
 </RelativeLayout>

@@ -25,13 +25,13 @@
     android:layout_centerHorizontal="true" />
 
     <EditText
-        android:id="@+id/username"
+        android:id="@+id/profileUsername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/userIcon"
         android:layout_marginTop="32dp"
         android:drawablePadding="10dp"
-        android:hint="USERNAME/EMAIL"
+        android:hint="EMAIL"
         android:inputType="textEmailAddress"
         android:padding="12dp" />
 
@@ -39,7 +39,7 @@
         android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/username"
+        android:layout_below="@id/profileUsername"
         android:layout_marginTop="20dp"
         android:drawablePadding="10dp"
         android:hint="PASSWORD"
